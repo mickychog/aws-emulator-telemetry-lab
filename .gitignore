@@ -1,0 +1,29 @@
+# Dependencias Node
+node_modules/
+dist/
+
+# Configuración privada
+.env
+.env.*
+!.env.example
+
+# Credenciales y certificados
+.aws/
+*.pem
+*.p12
+
+# Archivos generados
+*.log
+coverage/
+*.tsbuildinfo
+
+# Editor
+.vscode/
+.idea/
+
+# Archivos auxiliares de asistentes de programación
+backend/.agents/
+backend/.claude/
+backend/AGENTS.md
+backend/CLAUDE.md
+/docs/images/04-emulated-account1.png

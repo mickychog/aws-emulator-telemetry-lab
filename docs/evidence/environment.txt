@@ -1,0 +1,14 @@
+=== Sistema operativo ===
+PRETTY_NAME="Linux Mint 22.3"
+=== Node.js ===
+v24.22.1
+=== npm ===
+11.19.1
+=== AWS CLI ===
+aws-cli/2.36.29 Python/3.14.6 Linux/7.0.0-43-generic script-exe/x86_64.linuxmint.22
+=== AWS Emulator ===
+Version: 1.0.551
+Release date: 2026.11.21
+Commit: cc3a33fddf7ef0e48566ba31c217eb506b3c5f8f
+=== TypeScript ===
+Version 6.0.3
