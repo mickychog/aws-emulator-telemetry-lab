@@ -250,39 +250,41 @@ Equivalent test shortcuts are `npm test` and `npm run test:e2e`. Expected counts
 
 ## Evidence gallery
 
-These are the original lab captures, not images of a newly repeated integration run. There are **14** referenced images; numbering intentionally skips 13. The alternate `04-emulated-account1.png` is excluded from Git.
+The **14 original screenshots below are displayed directly from this repository**. They document the recorded lab run, rather than a newly repeated integration run. Numbering intentionally skips 13. The alternate `04-emulated-account1.png` is excluded from Git.
 
-<details>
-<summary>Environment, emulator, identity and resources (01–06)</summary>
+### Environment, emulator, identity and resources (01–06)
 
 ![Linux tools and versions](docs/images/01-entorno-linux.png)
+
 ![AWS Emulator version 1.0.551](docs/images/02-aws-emulator-version.png)
+
 ![AWS Emulator startup and HTTPS endpoint](docs/images/03-emulator-running.png)
+
 ![Emulated account identity](docs/images/04-emulated-account.png)
+
 ![S3, DynamoDB and SQS resources](docs/images/05-aws-resources.png)
+
 ![NestJS startup](docs/images/06-nestjs-start.png)
 
-</details>
-
-<details>
-<summary>Manual API, storage, alert and validation checks (07–12)</summary>
+### Manual API, storage, alert and validation checks (07–12)
 
 ![Normal telemetry response](docs/images/07-telemetry-normal.png)
+
 ![Normal telemetry in DynamoDB and S3](docs/images/08-telemetry-storage.png)
+
 ![High CPU telemetry response](docs/images/09-critical-telemetry.png)
+
 ![SQS high CPU message](docs/images/10-sqs-alert.png)
+
 ![Critical telemetry storage and visible queue count](docs/images/11-storage-verification.png)
+
 ![HTTP 400 for CPU above 100](docs/images/12-input-validation.png)
 
-</details>
-
-<details>
-<summary>Automated checks (14–15)</summary>
+### Automated checks (14–15)
 
 ![Two passing unit tests](docs/images/14-automated-tests.png)
-![Three passing HTTP E2E tests](docs/images/15-e2e-tests.png)
 
-</details>
+![Three passing HTTP E2E tests](docs/images/15-e2e-tests.png)
 
 ## Security and limitations
 
