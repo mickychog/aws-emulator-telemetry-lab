@@ -6,6 +6,15 @@ A local telemetry API built with NestJS, TypeScript and AWS SDK for JavaScript v
 
 The lab uses AWS Emulator **1.0.551** at **`https://127.0.0.1:9297`**, in `us-east-1`, with emulated account `000000000000`. This repository contains a learning exercise, not a production deployment.
 
+## Published articles
+
+Read the walkthrough in your preferred language, then use this repository to reproduce the lab:
+
+| Platform | Language | Article |
+| --- | --- | --- |
+| AWS Builder Center | Español | [Probé el nuevo AWS Emulator con NestJS: telemetría local con S3, DynamoDB y SQS](https://builder.aws.com/content/3MQQyEHnyi0cKBEQ6ZfVMJN3IHj/probe-el-nuevo-aws-emulator-con-nestjs-telemetria-local-con-s3-dynamodb-y-sqs) |
+| DEV Community | English | [I Tried the New AWS Emulator with NestJS: Local Telemetry with S3, DynamoDB and SQS](https://dev.to/mickychog/i-tried-the-new-aws-emulator-with-nestjs-local-telemetry-with-s3-dynamodb-and-sqs-58f6) |
+
 ## Architecture
 
 ```mermaid
@@ -334,4 +343,4 @@ git commit -m "docs: document AWS Emulator telemetry lab in English and Spanish"
 
 A clone already has `origin` configured. Inspect `git remote -v` before pushing. Maintainers with write access can publish using `git push -u origin main`; other contributors should use their own fork and a pull request. For the original local checkout, the SSH remote is `git@github.com:mickychog/aws-emulator-telemetry-lab.git`. Check both language links and image rendering on GitHub after pushing.
 
-The repository currently has no project license file and `backend/package.json` declares `UNLICENSED`. Choose a license before advertising reuse rights. For an AWS Builder Center or DEV Community article, link the published repository, keep the tested versions and scope explicit, and distinguish local manual evidence from mocked automated tests. Article publication is a separate step.
+The repository currently has no project license file and `backend/package.json` declares `UNLICENSED`. Choose a license before advertising reuse rights. The published AWS Builder Center and DEV Community walkthroughs are linked above. When sharing this lab, keep the tested versions and scope explicit, and distinguish local manual evidence from mocked automated tests.

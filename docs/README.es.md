@@ -6,6 +6,15 @@ API local de telemetría con NestJS, TypeScript y AWS SDK para JavaScript v3. Gu
 
 El laboratorio usa AWS Emulator **1.0.551** en **`https://127.0.0.1:9297`**, región `us-east-1` y cuenta emulada `000000000000`. Es un ejercicio de aprendizaje, sin despliegue de producción.
 
+## Artículos publicados
+
+Lee el recorrido en tu idioma preferido y utiliza este repositorio para reproducir el laboratorio:
+
+| Plataforma | Idioma | Artículo |
+| --- | --- | --- |
+| AWS Builder Center | Español | [Probé el nuevo AWS Emulator con NestJS: telemetría local con S3, DynamoDB y SQS](https://builder.aws.com/content/3MQQyEHnyi0cKBEQ6ZfVMJN3IHj/probe-el-nuevo-aws-emulator-con-nestjs-telemetria-local-con-s3-dynamodb-y-sqs) |
+| DEV Community | English | [I Tried the New AWS Emulator with NestJS: Local Telemetry with S3, DynamoDB and SQS](https://dev.to/mickychog/i-tried-the-new-aws-emulator-with-nestjs-local-telemetry-with-s3-dynamodb-and-sqs-58f6) |
+
 ## Arquitectura
 
 ```mermaid
@@ -334,4 +343,4 @@ git commit -m "docs: document AWS Emulator telemetry lab in English and Spanish"
 
 Al clonar, `origin` ya queda configurado. Inspecciona `git remote -v` antes de subir cambios. Quien tenga permisos de escritura puede publicar con `git push -u origin main`; los demás colaboradores deben usar su propio fork y una solicitud de cambios. La copia local original usa el remoto SSH `git@github.com:mickychog/aws-emulator-telemetry-lab.git`. Después comprueba en GitHub los enlaces entre idiomas y la visualización de las imágenes.
 
-Todavía no hay un archivo de licencia del proyecto y `backend/package.json` declara `UNLICENSED`. Elige una licencia antes de ofrecer derechos de reutilización. Para AWS Builder Center o DEV Community, enlaza el repositorio publicado, identifica las versiones probadas y distingue las evidencias manuales de las pruebas automatizadas con simulación. Publicar el artículo es un paso separado.
+Todavía no hay un archivo de licencia del proyecto y `backend/package.json` declara `UNLICENSED`. Elige una licencia antes de ofrecer derechos de reutilización. Los artículos publicados en AWS Builder Center y DEV Community están enlazados arriba. Al compartir el laboratorio, identifica las versiones probadas y distingue las evidencias manuales de las pruebas automatizadas con simulación.
